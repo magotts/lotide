@@ -1,4 +1,3 @@
-// FUNCTION IMPLEMENTATION
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`Assertion Passed: ${actual} === ${expected}`);
@@ -6,12 +5,9 @@ const assertEqual = function(actual, expected) {
     console.log(`Assertion Failed: ${actual} !== ${expected}`);
 };
 
-
 const countLetters = function(sentence) {
-  
   let output = {};
-  let sentenceNoSpace = sentence.replace(/\s/g, '');
-  for (let letter of sentenceNoSpace) {
+  for (let letter of sentence) {
     if (!output[letter]) {
       output[letter] = 1;
     } else {
@@ -21,9 +17,7 @@ const countLetters = function(sentence) {
   return output;
 };
 
-
-console.log(countLetters(('LHL'),{L: 2, H: 1}));
-assertEqual((countLetters('LHL')),{L: 2, H: 1});
-
-console.log(countLetters(('lighthouse labs')));
-
+const result1 = countLetters('lhl');
+const result2 = countLetters('lighthouse');
+assertEqual(result1.l, 2);
+assertEqual(result2.h, 2);
