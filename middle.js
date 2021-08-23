@@ -20,7 +20,7 @@ let newMid = [];
 const middle = function(array) {
   if ((array.length % 2 === 0) && (array.length > 2)) { //even
     cut = (array.length / 2) - 1;
-    newMid = array.slice(cut, cut + 2); 
+    newMid = array.slice(cut, cut + 2);
   } else if (array.length <= 2) { // less than 2
     return newMid;
   } else { // odd
