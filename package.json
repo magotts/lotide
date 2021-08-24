@@ -1,0 +1,22 @@
+{
+  "name": "@yvettelim/lotide",
+  "version": "1.0.1",
+  "description": "Lotide Project - Lighthouse Labs",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magotts/lotide.git"
+  },
+  "author": "Yvette Lim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magotts/lotide/issues"
+  },
+  "homepage": "https://github.com/magotts/lotide#readme"
+}
