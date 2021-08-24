@@ -29,6 +29,7 @@ const map = function(array, callback) {
   return results;
 };
 
+module.exports = map;
 
 
 const words = ["ground", "control", "to", "major", "tom"];
